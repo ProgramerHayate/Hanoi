@@ -144,16 +144,6 @@ namespace Torres_de_Hanoi
             {
 
                 mover_disco(ini, fin);
-                /*Se muestra el movimiento por consola*/
-                if (direccion == 1)
-                {
-                    Console.WriteLine("Se a movido el disco de fin a ini");
-                }
-                else
-                {
-                    Console.WriteLine("Se a movido el disco de ini a fin");
-                }
-                /*---------------------------------------------------------------*/
 
             }
             else if(n == 0)
@@ -164,16 +154,6 @@ namespace Torres_de_Hanoi
             {
                 recursivo(n - 1, ini, aux, fin);
                 mover_disco(ini, fin);
-                /*Se muestra el movimiento por consola*/
-                if (direccion == 1)
-                {
-                    Console.WriteLine("Se a movido el disco de fin a ini");
-                }
-                else
-                {
-                    Console.WriteLine("Se a movido el disco de ini a fin");
-                }
-                /*---------------------------------------------------------------*/
 
                 recursivo(n - 1, aux, fin, ini);
             }

@@ -12,6 +12,7 @@ namespace Torres_de_Hanoi
         Decidir tipo de Valor
         public int Valor { get; set; }
         public String Valor { get; set; }
+        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
         */
 
     }

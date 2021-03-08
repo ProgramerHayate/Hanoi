@@ -82,6 +82,10 @@ namespace Torres_de_Hanoi
                 mover_disco(ini, fin);
 
             }
+            else if(n == 0)
+            {
+                m = 0;
+            }
             else
             {
                 recursivo(n - 1, ini, aux, fin);
